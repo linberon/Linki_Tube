@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+main {
+	margin-top: 10vh;
+}
+
+body {
+	min-height: 100vh;
+	background: #104579;
+	background: linear-gradient(rgba(16, 69, 121, 1), rgba(47, 76, 154, 1));
+	font-family: "Montserrat";
+}
+
+h1 {
+	color: white;
+}
+
+input,
+button {
+	display: inline-block;
+	height: 30px;
+	border: none;
+	background-color: white;
+	outline: none;
+	opacity: 0.8;
+}
+
+button {
+	width: 30px;
+	background-image: url(magnifying-glass.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0px 12px 0px 0px;
+	cursor: pointer;
+}
+
+input {
+	color: #104579;
+	padding: 5px;
+	float: left;
+	min-width: 40%;
+	border-radius: 0px 0px 0px 12px;
+}
+
+#line {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	background-color: white;
+	opacity: 0.8;
+	height: 3px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a,
+p,
+h3 {
+	text-decoration: none;
+	color: #104579;
+	text-align: center;
+}
+
+.video {
+	background-color: #cfd9e4;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	border-radius: 12px;
+	border: none;
+	outline: none;
+}
